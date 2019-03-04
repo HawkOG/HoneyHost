@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'font205c3d1088026156be61db5113016c9f';
+        
+        src:    url('https://nomail.com.ua/files/eot/205c3d1088026156be61db5113016c9f.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/205c3d1088026156be61db5113016c9f.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/205c3d1088026156be61db5113016c9f.woff2') format('woff2');
+    }
+    
+    @font-face { font-family: 'GillSansMTPro-Medium';  src: local('GillSansMTPro-Medium'), url('https://nomail.com.ua/files/woff/205c3d1088026156be61db5113016c9f.woff') format('woff'); }
+
+    @font-face {
+        font-family: 'fontd21d2202d77ef70b643c63154a57cae6';
+            
+            src:    url('https://nomail.com.ua/files/eot/d21d2202d77ef70b643c63154a57cae6.eot?#iefix') format('embedded-opentype'),
+                    url('https://nomail.com.ua/files/woff/d21d2202d77ef70b643c63154a57cae6.woff') format('woff'),
+                    url('https://nomail.com.ua/files/woff2/d21d2202d77ef70b643c63154a57cae6.woff2') format('woff2');
+        }
+        
+        @font-face { font-family: 'GillSansMTPro-Bold';  src: local('GillSansMTPro-Bold'), url('https://nomail.com.ua/files/woff/d21d2202d77ef70b643c63154a57cae6.woff') format('woff'); }
+        
+        
+        

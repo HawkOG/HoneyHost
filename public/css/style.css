@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext');
+*,*::after, *::before{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    background:#EEE;
+    font-family:'Quicksand';
+}
+
+.navbar{
+    background:rgba(0,0,0,0.3);
+    box-shadow:0 0 5px #333;
+}
+
+.navbar-light .nav-item .nav-link{
+    color:rgba(255,255,255,0.6);
+    margin-left:73px;
+    transition:300ms all;
+
+}
+
+.navbar-light .nav-item .nav-link:hover{
+    color:#fff;
+    margin-left:73px;
+    transition:300ms all;
+}
+
+.nav-link-active{
+    color:#fff;
+}
+
+.hero{
+    position: relative;
+    background:url('https://i.imgur.com/guDNhFV.jpg') no-repeat;
+    background-size:cover;
+    height:100vh;
+    margin-bottom:60px;
+    margin-top:-56px;
+    z-index:-1;
+}
+
+.overlay{
+    position:absolute;
+    background:url('https://i.imgur.com/LsUKsA2.png') no-repeat 100%;
+    padding:0;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+}
+.hero h1{
+    padding-top:300px;
+    font-size:48px;
+    color:#fff;
+    text-shadow:0 2px 5px #000;
+    font-family:'Proxima Nova';
+
+}
+
+.hero h3{
+    font-size:31;
+    color:#fff;
+    margin-top:24px;
+    text-shadow:0 2px 5px #000;
+}
+
+
+
+.btn-order:hover, .btn-order-x:hover,.btn-order-home:hover{
+    background:#cccccc;
+    border:3px solid #fff;
+    outline:0;
+    transition:500ms all;
+    color:#333;
+}
+
+.aboutContainer{
+    margin-bottom:60px;
+    box-shadow: 0 0 5px #ddd;
+}
+.aboutInfo {
+    padding:160px 180px;
+    background:#f9f9f9;
+}
+.aboutInfo h1{
+    font-size:48px;
+    margin-bottom:35px;
+}
+.aboutInfo h1, .aboutInfo p{
+    padding-left:180px;
+    width:800px;
+}
+
+.gallery{
+    margin-top:60px;
+}
+
+.menuContainer{
+    margin:60px 0;
+    padding-bottom:60px;
+    background:#fff;
+    padding-top:60px;
+    box-shadow: 0 0 5px #ddd;
+}
+
+.menuContainer h1{
+    padding-bottom:70px;
+}
+
+.menuContainer h3{
+    margin-bottom:45px;
+}
+
+.menuContainer img{
+    height:220.203px;
+    width:349.953px;
+}
+
+.contacts{
+    padding:60px;
+}
+.contactinfo{
+    margin-top:60px;
+    margin-bottom:60px;
+}
+.contacts h1{
+    margin-bottom:30px;
+}
+
+.contactinfo p{
+    font-size:18px;
+    padding-top:7px;
+    margin:0;
+
+}
+
+
+
+
+.footer{
+    padding:20px;
+    background:#531900;
+}
+.footer .nav-item .nav-link{
+    padding-top:30px;
+    color:rgba(255,255,255,0.6);
+    transition:300ms all;
+}
+#shortheader{
+    text-align:center;
+    height:424px;
+    background:url('https://i.imgur.com/KsfkaBR.png') no-repeat 100%;
+    margin-top:-56px;
+    padding-top:200px;
+    color:#fff;
+}
+
+#shortheader h1{
+    font-size:31px;
+    font-weight:bold;
+    font-family:'Proxima Nova';
+    text-shadow:0 2px 5px #000;
+    padding-bottom:44px;
+}
+#shortheader h2{
+    text-shadow:0 2px 5px #000;
+    font-size:20px;
+}
+
+.productDetCont{
+    padding:20px 100px 50px 50px;
+}
+
+.buyProd-btn{
+    height:50px;
+    width:260px;
+    color:#fff;
+    text-shadow:0 0 5px #333;
+    background:#4E1B02;
+    border:none;
+   
+}
+
+.spacing{
+    margin-bottom:3rem;
+}
+.contactContainer h2{
+    color: #333;
+    font-size:38px;
+}
+
+
+.form-control{
+    background:#DFDFDF;
+    border:1px solid #DDDDDD;
+}
+
+.sendmsg-btn{
+    width:100%;
+    height:50px;
+    color:#fff;
+    text-shadow:0 0 5px #333;
+    background:#4E1B02;
+    border:none;
+}
+
+
+.form-control:focus, .form-control:active{
+    outline:none;
+    background:inherit;
+    border:1px solid #ddd;
+}
+
+.videoContainer{
+    position:relative;
+    z-index:-9999;
+    font-family:'GillSansMTPro-Bold';
+
+}
+.videoContainer video{
+    width:100%;
+    height:1080px;
+    margin-top:-60px;
+    margin-bottom:60px;
+}
+
+.videooverlaytext h1{
+    position:absolute;
+    top:30%;
+    color:#fff;
+    text-shadow:0 2px 5px #333;
+    left:0;
+    right:0;
+}
+.videooverlaytext h3{
+    position:absolute;
+    top:38%;
+    color:#fff;
+    text-shadow:0 0 5px #333;
+    left:0;
+    right:0;
+}
+
+
